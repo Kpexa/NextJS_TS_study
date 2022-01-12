@@ -1,4 +1,4 @@
-import { Button, Htag } from '../components';
+import { Button, Htag, Paragraph } from '../components';
 
 export default function Home(): JSX.Element {
   return (
@@ -10,6 +10,9 @@ export default function Home(): JSX.Element {
       <Button appearance="ghost" arrow="down">
         Close
       </Button>
+      <Paragraph size="sm">Small</Paragraph>
+      <Paragraph>Medium</Paragraph>
+      <Paragraph size="lg">Large</Paragraph>
     </div>
   );
 }
